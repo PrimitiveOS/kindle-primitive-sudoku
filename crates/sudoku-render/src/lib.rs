@@ -62,13 +62,15 @@ impl View {
                 let cell = tile(w, row, column);
                 let given = self.game.given(row, column);
                 let selected = self.selected == Some((row, column));
+                let pressed = !self.new_game && !selected && canvas.control_pressed(cell, false);
+                let highlighted = selected || pressed;
                 let digit = self.game.value(row, column);
-                if selected {
+                if highlighted {
                     canvas.fill(cell.inset(canvas.px(5)), BLACK);
                 } else if given {
                     canvas.fill(cell.inset(canvas.px(2)), 247);
                 }
-                let ink = if selected { PAPER } else { BLACK };
+                let ink = if highlighted { PAPER } else { BLACK };
                 if digit != 0 {
                     let style = TextStyle::new(62).center().ink(ink);
                     let style = if given { style.bold() } else { style };
