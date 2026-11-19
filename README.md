@@ -1,6 +1,6 @@
 <div align="center">
 
-# Primitive Sudoku
+# Sudoku
 
 **Sudoku for jailbroken Kindle e-readers.**
 
@@ -36,7 +36,7 @@ Play fresh 9 × 9 puzzles with large number keys and pencil marks. Every generat
 ## Quick start
 
 For a local USB test, extract the ARMHF test package and copy the `sudoku` and `documents` folders to the Kindle's
-user storage. Eject the Kindle and open Primitive Sudoku from the Primitive Launcher grid. The app uses the
+user storage. Eject the Kindle and open Sudoku from the Primitive Launcher grid. The app uses the
 launcher's fonts, drawing, input, rotation, and sleep handling. [Install guide](INSTALL.md)
 
 ## Status

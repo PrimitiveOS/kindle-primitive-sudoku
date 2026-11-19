@@ -2,7 +2,7 @@
   "schema": 1,
   "id": "primitive-sudoku",
   "dir": "sudoku",
-  "name": "Primitive Sudoku",
+  "name": "Sudoku",
   "subtitle": "Sudoku for e-ink",
   "developer": {
     "name": "Primitive AI"

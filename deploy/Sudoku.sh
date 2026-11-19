@@ -1,5 +1,5 @@
 #!/bin/sh
-# Name: Primitive Sudoku
+# Name: Sudoku
 # Author: Primitive AI
 # DontUseFBInk
 # PrimitiveUSBLease
