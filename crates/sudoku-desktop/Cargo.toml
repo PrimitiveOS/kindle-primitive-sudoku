@@ -1,0 +1,11 @@
+[package]
+name = "sudoku-desktop"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[dependencies]
+sudoku-core.workspace = true
+sudoku-render.workspace = true
+primitive-app.workspace = true
+primitive-ui.workspace = true

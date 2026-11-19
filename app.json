@@ -1,0 +1,26 @@
+{
+  "schema": 1,
+  "id": "primitive-sudoku",
+  "dir": "sudoku",
+  "name": "Primitive Sudoku",
+  "subtitle": "Sudoku for e-ink",
+  "developer": {
+    "name": "Primitive AI"
+  },
+  "categories": [
+    "games"
+  ],
+  "description": "Generate a Sudoku puzzle with one solution. Choose a difficulty, add pencil marks, check the board for mistakes, and undo a move. Your current puzzle is saved.",
+  "repo": "https://github.com/DoanNguyenTrong/kindle-primitive-sudoku",
+  "licence": "PolyForm-Noncommercial-1.0.0",
+  "source": "hosted",
+  "icon": "icon.png",
+  "changes": {
+    "network": false,
+    "stops_kindle_ui": false,
+    "starts_at_boot": false,
+    "root_filesystem": false,
+    "hooks": false
+  },
+  "versions": []
+}
