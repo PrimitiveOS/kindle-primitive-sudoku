@@ -42,7 +42,9 @@ launcher's fonts, drawing, input, rotation, and sleep handling. [Install guide](
 ## Status
 
 Desktop tests and previews passed on macOS, and the ARMHF package passed the local Store fixture.
-Kindle hardware verification is pending. `app.json` contains the draft Store listing. [Device notes](docs/device-notes.md)
+On an ARMHF Kindle Oasis 3 running firmware 5.18.2, Sudoku opened from Launcher, showed the new-puzzle
+confirmation, returned to the same puzzle after Cancel, and returned to Launcher. `app.json` contains the draft
+Store listing. [Device notes](docs/device-notes.md)
 
 ## Develop locally
 
