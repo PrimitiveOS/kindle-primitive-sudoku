@@ -35,9 +35,8 @@ Play fresh 9 × 9 puzzles with large number keys and pencil marks. Every generat
 
 ## Quick start
 
-For a local USB test, extract the ARMHF test package and copy the `sudoku` and `documents` folders to the Kindle's
-user storage. Eject the Kindle and open Sudoku from the Primitive Launcher grid. The app uses the
-launcher's fonts, drawing, input, rotation, and sleep handling. [Install guide](INSTALL.md)
+After setting up PrimitiveOS, open **Store** from Primitive Launcher. Choose **Sudoku** under **Apps**,
+tap **Get**, and open it from the Launcher grid. The [install guide](INSTALL.md) also covers local USB testing.
 
 ## Status
 
