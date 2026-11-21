@@ -173,7 +173,7 @@ fn cancel(w: i32) -> Rect {
 impl App for View {
     fn draw(&self, canvas: &mut Canvas) {
         let width = canvas.bounds().w;
-        header(canvas, "Sudoku", "Done");
+        header(canvas, "Sudoku", "Exit");
         canvas.text(
             screen_rect(width, 92, 156, 1080, 57),
             &format!("{} puzzle", self.game.difficulty().name()),
